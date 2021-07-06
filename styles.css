@@ -1,0 +1,81 @@
+/* TAG STYLES */
+
+h1, h3{
+    margin: 0px;
+    font-size: 250%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 span{
+    color: aqua;
+}
+body, html{
+    width: 100%;
+    margin: 0px;
+    
+}
+
+section{
+    display: flex;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+
+
+/* CLASS STYLES */
+
+
+
+
+.header-section{
+    padding-top: 5%;
+}
+.about-me{
+    background-image: url("images/shapes/Frame\ 57.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background-size: 108%;
+    background-position-x: -37px; */
+
+
+}
+.half-width{
+    width: 50%;
+    
+}
+
+.half-width img{
+    width: 80%;
+    padding-left: 15px;
+    
+}
+
+.full-width{
+    width: 80%;
+}
+
+.link-style{
+    /* text-decoration: none;
+    text-decoration-color: azure;
+    background-image: linear-gradient(teal, aqua);
+    border-radius: 25%;
+    margin-left: 20px;
+    font-size: x-large; */
+
+    text-decoration: none;
+    background: linear-gradient(75deg, teal, aqua);
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+/* ID STYLES */
+
