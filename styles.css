@@ -2,23 +2,26 @@
 
 h1, h3{
     margin: 0px;
-    font-size: 250%;
+    font-size: 200%;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
 }
 
 h1 span{
     color: aqua;
 }
 body, html{
-    width: 100%;
-    margin: 0px;
+    width: 85%;
+    margin: 5% auto;
+    
     
 }
 
 section{
     display: flex;
-    margin: 12px;
-    padding-top: 50px;
+    margin: 20px;
+
+    text-align: center;
 }
 
 p{
@@ -38,6 +41,7 @@ p{
 .header-section{
     padding-top: 5%;
 }
+
 .about-me{
     background-image: url("images/shapes/Frame\ 57.jpg");
     background-repeat: no-repeat;
@@ -49,18 +53,17 @@ p{
 }
 .half-width{
     width: 50%;
+    margin: auto;
     
 }
 
 .half-width img{
     width: 80%;
-    padding-left: 15px;
+    padding-left: 25px;
     
 }
 
-.full-width{
-    width: 80%;
-}
+
 
 .link-style{
     text-decoration: none;
@@ -69,6 +72,8 @@ p{
     border-radius: 50px;
     color: white;
     font-weight: 800;
+    display:inline-block;
+    margin:0 auto;
 }
 
 .showcase{
@@ -77,6 +82,21 @@ p{
     background-position: center;
     background-size: 100%;
     font-size: 20px;
+    display: inline-flex;
+    }
+
+    .showcase img{
+        width: 100%;
+    }
+
+.showcase-2{
+    background-image: url("images/food/Project\ Cover1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -92,46 +112,63 @@ p{
 }
 
 .menu-items{
-    width: 60%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-image: url("images/food/Project Cover4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
     
 }
 
 .menu-items div{
-    float: center;
-    box-shadow: 2px 2px 32px grey;
-    height: 80%;
-    padding: 150px;
+    box-shadow: inset 7px 7px 7px #d7d7d7;
+    padding: 20px;
+    margin: 0 1%;
+    border: 2px solid aqua;
+    border-radius: 35px;
+    width: 31%;
+    
 }
 
 .menu-items img{
     border-radius: 25%;
     float: center;
-    width:  100px;
-    height: 100px;
-    object-fit: cover;
+    width:  100%;
+}
+
+.menu-items h3{
+    background: orange;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-weight: 400;
+    color: white;
 }
 
 .footer-area{
     text-align: center;
-    background: linear-gradient(75deg, teal, aqua);
+    background: black;
     font-weight: 800;
     background-position: center;
+    border: 2px solid gray;
+    border-radius: 15px;
+    color: white;
 }
 
 /* ID STYLES */
 
-#about-us{
+/* #about-us{
     padding-top: 150px;
+} */
+
+#credits{
+    font-size: 10px;
 }
 
-#soup{
-    
+#showcase-img{
+    width: 15%;
 }
 
-#salad{
-    
-}
-
-#pasta{
-   
-}
